@@ -67,23 +67,23 @@ num2 = roman_to_Int(rom2)
 // Based on the operand we run the appropriate math on the two numbers
 
 if (operand === "add") {
-  outputNum = parseFloat(num1) + parseFloat(num2);
+  outputNum = (num1) + (num2);
 }
 
 else if (operand === "subtract") {
-  outputNum = parseFloat(num1) - parseFloat(num2);
+  outputNum = (num1) - (num2);
 }
 
 else if (operand === "multiply") {
-  outputNum = parseFloat(num1) * parseFloat(num2);
+  outputNum = (num1) * (num2);
 }
 
 else if (operand === "divide") {
-  outputNum = parseFloat(num1) / parseFloat(num2);
+  outputNum = (num1) / (num2);
 }
 
 else if (operand === "remainder") {
-  outputNum = parseFloat(num1) % parseFloat(num2);
+  outputNum = (num1) % (num2);
 }
 
 else if (operand === "exp") {
